@@ -1,4 +1,5 @@
 header {
+  animation: inicializar .7s forwards;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +10,7 @@ header {
 header .header__left {
   max-width: 60rem;
   flex: 1;
-}
+  }
 
 header .header__left p {
   margin-top: 2rem;
@@ -56,5 +57,16 @@ header .header__right .header__image .background {
 
   header .header__left p {
     margin: 2rem auto 4rem;
+  }
+}
+
+@keyframes inicializar {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }

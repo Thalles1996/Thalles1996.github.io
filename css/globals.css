@@ -25,7 +25,7 @@ a {
 }
 
 h1 {
-  font-size: 4.5rem;
+  font-size: 4.3rem;
   font-weight: bold;
   color: var(--primary-color);
 }
@@ -134,3 +134,4 @@ p:not(:last-of-type),
     font-size: 4.2rem;
   }
 }
+
